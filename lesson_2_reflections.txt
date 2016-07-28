@@ -11,20 +11,30 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-
+	You can use the staging area to make sure that you have one commit per logical change by reviewing what you are adding to your commit. 
+	You may have not committed in a while and may have worked on different files. Then when you commit you actually do not remember what you worked on. 
+	There may also be files that are not ready to be committed yet. 
+	By taking this extra step you can make sure that you are only committing what you want to: one logical change
 
 What are some situations when branches would be helpfil in keeping your history organized?
 How would branches help?
 
-
+	Branches can help when you want to add a new feature that you would like to test out. 
+	Having branches in this case is helpful because you don't have to mess with the master branch
+	and if the feature doesn't work the way you want it to, you can get rid of the branch instead of reworking the code or having to look at and checkout another commit.
 
 How do you the diagrams help you visualize the branch structure?
 
-
+	The diagrams help visualizing the branch structure because you can see which commits go together and how all the branches are related to each other.
 
 What is the result of merging two branches together?
-What do we represent it in the diagram the way we do?
+Why do we represent it in the diagram the way we do?
 
-
+	The resut of merging two branches together is, simply put, a combined branch that tries to incorporate the work done on both branches.
+	We represent it in the diagram the way we do because they incorporate the changes done from both branches.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	
+	the pros of automatic merging is that it is much faster than manual.
+	The cons of automatic merging is that it cannot handle conflicts and we have to go in to make the fixes.
+	Not sure about this one, but there may be a chance that git misses a conflict and allows the commit and introduces a bug?
