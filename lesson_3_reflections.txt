@@ -3,3 +3,9 @@ local?
   
   If you are working with a team, it is a lot easier to work together on that project.
   Even if you don't have access to your local machine, you can access repository from another.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your repository?
+
+	The new update might have or might not have files that you need/were working on.
+	There may be changes to files that affect your work.
+	The auto pull might happen while you are working.
