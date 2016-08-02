@@ -17,3 +17,18 @@ Describe the differences between forks, clones, and branches. When would you use
 	Branches are used when you are working on a project and you want to add new feature or test out something. 
 	It will create a copy of the last commit and move the head there.
 	Then you can choose to merge that branch with another branch and add/commit/push the changes to the remote repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	
+	The benefit of having a copy of the last known state of the remote stored locally is that you have record an can compare
+	the version you have stored locally versus the version that is up there now. And if there is a difference, you know that
+	a collaborator has updated it and you can take the appropriate measures to include your changes.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	You can collaborate using a different version control system, of which I have no knowledge.
+	If you are able to work in the same physical location you can create a repository on a local machine where you both have access.
+	If you are not able to work in the same physical location, then assigning part of the project would be most efficient.
+	That way you have complete control over your part and have no need to worry that the code you edited would be tampered with by another.
+	It would be harder to merge the different parts unless you worked out what terms to you in detail.
+	Constant communication would be necessary between/among you and your partner(s). 
