@@ -32,3 +32,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	That way you have complete control over your part and have no need to worry that the code you edited would be tampered with by another.
 	It would be harder to merge the different parts unless you worked out what terms to you in detail.
 	Constant communication would be necessary between/among you and your partner(s). 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	You would want to make changes in a separate branch when you are trying to add new feature or change something. 
+	This especially works nicely when collaborating with other people and having a product that works at the same time.
+	You would edit right in the master when the changes are very minor and doesn't have a huge effect on the project.
