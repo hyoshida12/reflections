@@ -9,3 +9,11 @@ Why might you want to always pull changes manually rather than having Git automa
 	The new update might have or might not have files that you need/were working on.
 	There may be changes to files that affect your work.
 	The auto pull might happen while you are working.
+
+Describe the differences between forks, clones, and branches. When would you use the one instead of another?
+	
+	You would use a fork when there is a repository on GitHub that you want to copy, not onto your local, but on the GitHub server.
+	You would use cloning when you want to copy a repository on GitHub onto your local.
+	Branches are used when you are working on a project and you want to add new feature or test out something. 
+	It will create a copy of the last commit and move the head there.
+	Then you can choose to merge that branch with another branch and add/commit/push the changes to the remote repository.
